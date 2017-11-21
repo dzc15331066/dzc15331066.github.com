@@ -1,6 +1,7 @@
 ---
-layout: layout
+layout: default
 ---
 
-{% assign __ = site.data.languages[site.language] %}
-{% include category.html %}
+{% for page in site.categories[page.category] %}
+{% include articles.html %}
+{% endfor %}
