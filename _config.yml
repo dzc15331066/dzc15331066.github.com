@@ -20,7 +20,7 @@ title: Get And Lose
 
 # Following needed for disqus integration
 # Set your 'disqus' account name
-disqus:
+disqus: dengzhc
 
 # Uncomment if deployed locally
 #url: https://localhost:4000
@@ -78,3 +78,6 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
+
+layout: default
+comments: true
