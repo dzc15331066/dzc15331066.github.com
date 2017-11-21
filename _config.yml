@@ -20,7 +20,7 @@ title: Get And Lose
 
 # Following needed for disqus integration
 # Set your 'disqus' account name
-disqus: dengzhc
+disqus: blogdeng
 
 # Uncomment if deployed locally
 #url: https://localhost:4000
@@ -51,7 +51,7 @@ paginate: 5
 permalink: /:categories/:title
 
 # MathJax support
-math: false
+math: true
 
 collections:
 - definitions
@@ -78,6 +78,3 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
-
-layout: default
-comments: true
